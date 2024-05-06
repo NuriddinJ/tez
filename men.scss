@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a, label {
+    display: inline-block;
+}
+.katta{
+    padding: 40px;
+    background-image:linear-gradient(rgba(255, 255, 0, 0.478),rgba(0, 0, 255, 0.44)), url(7.\ Бабочка.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div{
+    background-color: rgba(0, 0, 0, 0.682);
+    width: 300px;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    color: fuchsia;
+    font-size: 30px;
+
+}
+.form{
+    margin: 30px;
+    text-align: center;
+}
+.input1, .input2{
+    padding: 10px;
+    font-size: 30px;
+    color: turquoise;
+    width: 30%;
+}
+.btn{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.627);
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px; 
+}
+@media (max-width:700px){
+    .input1, .input2{
+        width: 100%;
+        margin: 20px;
+    }
+}
+@media (max-width:400px){
+    .katta{
+        padding: 10px;
+    }
+}
+@media (max-width:330px){
+    .katta{
+        padding: 5px;
+    }
+    .div{
+        width: 270px;
+    }
+}
